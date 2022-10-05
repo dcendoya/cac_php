@@ -23,6 +23,7 @@ html{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 30vw;
 }
 
 .logo{
@@ -30,10 +31,20 @@ html{
 }
 
 .navbar{
+    width: 70vw;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.navbarLi{
+    padding: 0px 10px 0px 10px;
+    color: #999da0;
+}
+
+.active {
+    color: #ffffff;
 }
 
 .headerBotonComprar{
