@@ -13,6 +13,7 @@ html{
     min-height: 50px;
     max-height: 10vh;
     display: flex;
+    align-items: center;
     flex-direction: row;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -21,12 +22,18 @@ html{
 .logoHeader{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: 7vw;
 }
 
 .navbar{
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 .headerBotonComprar{
@@ -37,10 +44,170 @@ html{
     height: 60vh;
     padding-left: 5vw;
     padding-right: 5vw;
-    background-image: url(../assets/images/ba1.jpg);
+    /* background-image: url(../assets/images/ba1.jpg); */
+    background-color: black;
     background-size: 100vw;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+}
+
+.introImg{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.introText{
+    width: 50vw;
+    text-align: end;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.introButtons{
+    width: 50vw;
+    text-align: end;
+    position: relative;
+}
+
+.introButtonWhite {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.introButtonGreen {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #29a744;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #29a744;
+}
+
+.section2{
+}
+
+.sectionTitle{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section2Cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #BABABA;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cardImage {
+    width: 300px;
+    border-radius: 3px;
+}
+
+.cardText{
+    padding: 20px;
+}
+
+.cardbuttonContainer{
+    margin-bottom: 5px;
+}
+
+.cardbutton {
+    text-decoration: none;
+    color: #353a40;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 0.7rem;
+}
+
+.yellowButton {
+    background-color: #ffc207;
+}
+
+.greenButton {
+    color: #ffffff;
+    background-color: #17a2b9;
+
+}
+
+.greyButton {
+    color: #ffffff;
+    background-color: #6c757c;
+
+}
+
+.redButton {
+    color: #ffffff;
+    background-color: #dc3546;
+}
+
+.cardParagraph {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+
+.section3{
+    display: flex;
+}
+
+.section3Image{
+    margin: 0px;
+    width: 50vw;
+}
+
+.section3Text{
+    background-color: #353a40;
+    color: #ffffff;
+    padding: 30px 15px 30px 15px;
+}
+
+.section3Paragraph {
+    margin-bottom: 20px;
+}
+
+.section4{
+    padding: 20px;
+}
+
+.section4Text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #1d3744, #1e5372);
+    color: #ffffff;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.footerUl{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 0px 20px 0px 20px;
 }
