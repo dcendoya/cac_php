@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto CAC - PHP</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -24,24 +25,24 @@
         </nav>
     </header>
     <main>
-        <section class="intro">
+        <section class="container-fluid intro">
             <img class="introImg" src="./assets/images/ba1.jpg" alt=""/>
             <div class="introText">
                 <h1> Conf Bs As</h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt dolorum suscipit sint odit! Unde perspiciatis nobis ipsam exercitationem non, esse, quae, impedit sed laborum ratione recusandae enim? Odit, minima.</p>
             </div>
-            <div class="introButtons">
-                <a class="introButtonWhite" href="#">Quiero ser orador</a>
-                <a class="introButtonGreen" href="#">Comprar tickets</a>
+            <div class="row introButtons">
+                <a class="col-sm-12 col-md-3 introButtonWhite" href="#">Quiero ser orador</a>
+                <a class="col-sm-12 col-md-3 introButtonGreen" href="#">Comprar tickets</a>
             </div>
         </section>
-        <section class="section2">
+        <section class="container-fluid section2">
             <div class="sectionTitle">
                 <p>Conocé a los</p>
                 <h2>oradores</h2>
             </div>
-            <div class="section2Cards">
-                <div class="card">
+            <div class="row section2Cards">
+                <div class="col-sm-12 card">
                     <div><img class="cardImage" src="./assets/images/steve.jpg" alt="orador 1"></div>
                     <div class="cardText">
                         <div class="cardbuttonContainer">
@@ -55,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="col-sm-12 card">
                     <div><img class="cardImage" src="./assets/images/bill.jpg" alt="orador 2"></div>
                     <div class="cardText">
                         <div class="cardbuttonContainer">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="col-sm-12 card">
                     <div><img class="cardImage" src="./assets/images/ada.jpeg" alt="orador 3"></div>
                     <div class="cardText">
                         <div class="cardbuttonContainer">
@@ -136,5 +137,6 @@
             <li>Estudiantes</li>
         </ul>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -88,6 +88,8 @@ html{
     width: 50vw;
     text-align: end;
     position: relative;
+    justify-content: flex-end;
+    text-align: center;
 }
 
 .introButtonWhite {
@@ -96,7 +98,8 @@ html{
     border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 10px;
+    width: 150px;
 }
 
 .introButtonGreen {
@@ -105,7 +108,9 @@ html{
     border: 1px solid #29a744;
     border-radius: 5px;
     padding: 10px;
+    margin: 10px;
     background-color: #29a744;
+    width: 150px;
 }
 
 .greyButtonForm{
