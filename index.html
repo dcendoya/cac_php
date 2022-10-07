@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,15 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="logoHeader">
             <a href="#"><img class="logo" src="./assets/images/codoacodo.png" alt="logo"></a>
             <p>Conf Bs As</p>
         </div>
         <nav>
-            <ul class="navbar">
+            <ul class="navbarUl">
                 <li class="navbarLi active">La conferencia</li>
                 <li class="navbarLi">Los oradores</li>
                 <li class="navbarLi">El lugar y la fecha</li>
@@ -23,13 +25,34 @@
                 <li class="navbarLi headerBotonComprar">Comprar tickets</li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-lg header navbarWitdh">
+        <div class="container-fluid">
+            <a class="navbar-brand brandName" href="#"><img class="logo" src="./assets/images/codoacodo.png"
+                    alt="logo">Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbarUl">
+                    <a class="nav-link navbarLi activeLink" aria-current="page" href="#">La conferencia</a>
+                    <a class="nav-link navbarLi" href="#">Los oradores</a>
+                    <a class="nav-link navbarLi" href="#">El lugar y la fecha</a>
+                    <a class="nav-link navbarLi">Conviértete en orador</a>
+                    <a class="nav-link navbarLi headerBotonComprar">Comprar tickets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
         <section class="container-fluid intro">
-            <img class="introImg" src="./assets/images/ba1.jpg" alt=""/>
+            <img class="introImg" src="./assets/images/ba1.jpg" alt="" />
             <div class="introText">
                 <h1> Conf Bs As</h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt dolorum suscipit sint odit! Unde perspiciatis nobis ipsam exercitationem non, esse, quae, impedit sed laborum ratione recusandae enim? Odit, minima.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt dolorum suscipit sint odit!
+                    Unde perspiciatis nobis ipsam exercitationem non, esse, quae, impedit sed laborum ratione recusandae
+                    enim? Odit, minima.</p>
             </div>
             <div class="row introButtons">
                 <a class="col-sm-12 col-md-3 introButtonWhite" href="#">Quiero ser orador</a>
@@ -51,7 +74,10 @@
                         </div>
                         <div>
                             <h3>Steve Jobs</h3>
-                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?</p>
+                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+                                maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione
+                                reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +91,10 @@
                         </div>
                         <div>
                             <h3>Bill Gates</h3>
-                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?</p>
+                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+                                maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione
+                                reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -79,19 +108,26 @@
                         </div>
                         <div>
                             <h3>Ada Lovelace</h3>
-                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?</p>
+                            <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+                                maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione
+                                reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="section3">
-                <img class="section3Image" src="./assets/images/honolulu.jpg" alt="paisaje">
-                <div class="section3Text">
+        <section class="container-fluid">
+            <div class="row section3">
+                <div class="col-sm-12 col-md-6 section3ImageContainer">
+                    <img class="section3Image" src="./assets/images/honolulu.jpg" alt="paisaje">
+                </div>
+                <div class="col-sm-12 col-md-6 section3Text">
                     <div class="section3Paragraph">
                         <h3>Bs As - Octubre</h3>
-                        <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, maxime voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione reprehenderit fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?</p>
+                        <p class="cardParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, maxime
+                            voluptatem provident vel id placeat quidem deserunt velit sit soluta ratione reprehenderit
+                            fugiat, repudiandae consequatur dolor molestiae ipsa maiores praesentium?</p>
                     </div>
                     <div>
                         <a class="introButtonWhite" href="#">Conocé más</a>
@@ -105,38 +141,40 @@
                     <p>Convertite en un</p>
                     <h2>orador</h2>
                 </div>
-                <div class="section4Text"> 
+                <div class="section4Text">
                     <p>Anotate como orador para dar una charla ignite. Contanos de qué querés hablar.</p>
                 </div>
             </div>
             <div class="formStyle">
-            <form>
-                <div>
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                </div>
-                <div>
-                    <textarea class="formTextArea" name="" id="" cols="70" rows="10" placeholder="Indicá acá sobre qué querés hablar"></textarea>
-                </div>
-                <div>
-                    <input class="introButtonGreen" type="submit" value="Enviar">
-                    <input class="greyButtonForm" type="reset" value="Limpiar">
-                </div>
-            </form>
+                <form>
+                    <div>
+                        <input type="text" class="form-control mb-2" placeholder="Nombre">
+                        <input type="text" class="form-control mb-4" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <textarea class="form-control formTextArea" name="" id="" cols="50" rows="10"
+                            placeholder="Indicá acá sobre qué querés hablar"></textarea>
+                    </div>
+                    <div>
+                        <input class="introButtonGreen" type="submit" value="Enviar">
+                        <input class="greyButtonForm" type="reset" value="Limpiar">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
-    <footer>
-        <ul class="footerUl">
-            <li>Preguntas frecuentes</li>
-            <li>Contactanos</li>
-            <li>Prensa</li>
-            <li>Conferencias</li>
-            <li>Términos y condiciones</li>
-            <li>Privacidad</li>
-            <li>Estudiantes</li>
+    <footer class="container-fluid">
+        <ul class="row footerUl">
+            <li class="col-md-1">Preguntas frecuentes</li>
+            <li class="col-md-1">Contactanos</li>
+            <li class="col-md-1">Prensa</li>
+            <li class="col-md-1">Conferencias</li>
+            <li class="col-md-1">Términos y condiciones</li>
+            <li class="col-md-1">Privacidad</li>
+            <li class="col-md-1">Estudiantes</li>
         </ul>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
